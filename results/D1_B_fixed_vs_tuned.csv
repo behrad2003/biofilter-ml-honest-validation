@@ -1,0 +1,13 @@
+scheme,model,RMSE_tuned,R2_tuned,RMSE_fixed,R2_fixed
+Random 80/20 (as in the paper),MLR quadratic,0.98,0.987,2.38,0.937
+Random 80/20 (as in the paper),SVR-RBF,0.81,0.992,0.81,0.991
+Random 80/20 (as in the paper),SVR-poly3,1.0,0.987,1.0,0.987
+Leave-one-condition-out,MLR quadratic,2.41,0.942,3.8,0.855
+Leave-one-condition-out,SVR-RBF,2.59,0.933,3.38,0.885
+Leave-one-condition-out,SVR-poly3,2.61,0.931,2.2,0.951
+Leave-one-MC-level-out,MLR quadratic,8.74,0.232,3.35,0.887
+Leave-one-MC-level-out,SVR-RBF,10.29,-0.064,8.62,0.254
+Leave-one-MC-level-out,SVR-poly3,10.67,-0.144,12.89,-0.669
+Leave-one-EBRT-level-out,MLR quadratic,10.75,-0.16,10.75,-0.16
+Leave-one-EBRT-level-out,SVR-RBF,12.58,-0.589,12.02,-0.452
+Leave-one-EBRT-level-out,SVR-poly3,11.17,-0.253,13.19,-0.749

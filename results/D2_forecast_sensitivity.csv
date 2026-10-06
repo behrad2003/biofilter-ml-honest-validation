@@ -1,0 +1,73 @@
+start_day,horizon_days,n,model,MAE,MAE_phase_change,MAE_within_phase
+40,5,64,Persistence,78,317,53
+40,5,64,Mechanistic,276,401,263
+40,5,64,Hybrid: mech + last residual,87,382,56
+40,5,64,Hybrid: adaptive + last residual,95,376,65
+40,5,64,Direct Ridge (with lag),120,400,91
+40,5,64,Direct XGBoost (with lag),102,378,73
+50,5,60,Persistence,81,317,55
+50,5,60,Mechanistic,288,401,276
+50,5,60,Hybrid: mech + last residual,92,382,60
+50,5,60,Hybrid: adaptive + last residual,100,376,69
+50,5,60,Direct Ridge (with lag),127,400,97
+50,5,60,Direct XGBoost (with lag),107,378,77
+50,10,60,Persistence,118,332,65
+50,10,60,Mechanistic,306,406,281
+50,10,60,Hybrid: mech + last residual,132,381,70
+50,10,60,Hybrid: adaptive + last residual,164,376,111
+50,10,60,Direct Ridge (with lag),185,403,130
+50,10,60,Direct XGBoost (with lag),178,377,128
+60,5,56,Persistence,85,317,58
+60,5,56,Mechanistic,301,401,289
+60,5,56,Hybrid: mech + last residual,97,382,62
+60,5,56,Hybrid: adaptive + last residual,106,376,73
+60,5,56,Direct Ridge (with lag),135,400,103
+60,5,56,Direct XGBoost (with lag),113,378,81
+60,10,56,Persistence,123,332,66
+60,10,56,Mechanistic,319,406,295
+60,10,56,Hybrid: mech + last residual,138,381,71
+60,10,56,Hybrid: adaptive + last residual,173,376,118
+60,10,56,Direct Ridge (with lag),196,403,139
+60,10,56,Direct XGBoost (with lag),186,377,134
+60,15,56,Persistence,172,358,83
+60,15,56,Mechanistic,345,432,304
+60,15,56,Hybrid: mech + last residual,193,409,91
+60,15,56,Hybrid: adaptive + last residual,247,421,164
+60,15,56,Direct Ridge (with lag),280,447,201
+60,15,56,Direct XGBoost (with lag),206,382,123
+80,5,48,Persistence,73,261,56
+80,5,48,Mechanistic,313,386,306
+80,5,48,Hybrid: mech + last residual,86,358,62
+80,5,48,Hybrid: adaptive + last residual,95,348,72
+80,5,48,Direct Ridge (with lag),127,382,104
+80,5,48,Direct XGBoost (with lag),105,351,83
+80,10,48,Persistence,109,302,71
+80,10,48,Mechanistic,328,413,312
+80,10,48,Hybrid: mech + last residual,126,374,76
+80,10,48,Hybrid: adaptive + last residual,162,365,121
+80,10,48,Direct Ridge (with lag),192,406,150
+80,10,48,Direct XGBoost (with lag),153,368,110
+80,15,48,Persistence,146,334,84
+80,15,48,Mechanistic,346,445,313
+80,15,48,Hybrid: mech + last residual,171,410,92
+80,15,48,Hybrid: adaptive + last residual,234,426,170
+80,15,48,Direct Ridge (with lag),272,465,208
+80,15,48,Direct XGBoost (with lag),185,369,124
+100,5,40,Persistence,77,261,56
+100,5,40,Mechanistic,341,386,336
+100,5,40,Hybrid: mech + last residual,91,358,61
+100,5,40,Hybrid: adaptive + last residual,100,348,73
+100,5,40,Direct Ridge (with lag),139,382,113
+100,5,40,Direct XGBoost (with lag),114,351,88
+100,10,40,Persistence,118,302,72
+100,10,40,Mechanistic,359,413,345
+100,10,40,Hybrid: mech + last residual,136,374,77
+100,10,40,Hybrid: adaptive + last residual,175,365,128
+100,10,40,Direct Ridge (with lag),216,406,169
+100,10,40,Direct XGBoost (with lag),170,368,120
+100,15,40,Persistence,162,334,88
+100,15,40,Mechanistic,377,445,348
+100,15,40,Hybrid: mech + last residual,190,410,96
+100,15,40,Hybrid: adaptive + last residual,252,426,178
+100,15,40,Direct Ridge (with lag),310,465,244
+100,15,40,Direct XGBoost (with lag),207,369,138

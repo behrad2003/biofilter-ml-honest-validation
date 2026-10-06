@@ -1,0 +1,61 @@
+start_day,horizon_days,model,dMAE_vs_persistence,CI95_low,CI95_high,verdict
+40,5,Mechanistic,198,103,287,worse than persistence
+40,5,Hybrid: mech + last residual,9,1,18,worse than persistence
+40,5,Hybrid: adaptive + last residual,17,0,35,no clear difference
+40,5,Direct Ridge (with lag),43,18,66,worse than persistence
+40,5,Direct XGBoost (with lag),24,5,44,worse than persistence
+50,5,Mechanistic,207,106,298,worse than persistence
+50,5,Hybrid: mech + last residual,11,2,20,worse than persistence
+50,5,Hybrid: adaptive + last residual,18,1,37,worse than persistence
+50,5,Direct Ridge (with lag),46,22,68,worse than persistence
+50,5,Direct XGBoost (with lag),26,6,47,worse than persistence
+50,10,Mechanistic,188,99,258,worse than persistence
+50,10,Hybrid: mech + last residual,14,2,27,worse than persistence
+50,10,Hybrid: adaptive + last residual,46,-2,103,no clear difference
+50,10,Direct Ridge (with lag),66,21,111,worse than persistence
+50,10,Direct XGBoost (with lag),59,32,86,worse than persistence
+60,5,Mechanistic,216,108,314,worse than persistence
+60,5,Hybrid: mech + last residual,11,2,21,worse than persistence
+60,5,Hybrid: adaptive + last residual,20,1,41,worse than persistence
+60,5,Direct Ridge (with lag),50,26,73,worse than persistence
+60,5,Direct XGBoost (with lag),27,6,50,worse than persistence
+60,10,Mechanistic,196,104,270,worse than persistence
+60,10,Hybrid: mech + last residual,14,2,29,worse than persistence
+60,10,Hybrid: adaptive + last residual,50,0,112,no clear difference
+60,10,Direct Ridge (with lag),72,26,119,worse than persistence
+60,10,Direct XGBoost (with lag),63,35,90,worse than persistence
+60,15,Mechanistic,173,88,236,worse than persistence
+60,15,Hybrid: mech + last residual,22,3,45,worse than persistence
+60,15,Hybrid: adaptive + last residual,75,10,160,worse than persistence
+60,15,Direct Ridge (with lag),108,43,171,worse than persistence
+60,15,Direct XGBoost (with lag),34,11,58,worse than persistence
+80,5,Mechanistic,239,140,327,worse than persistence
+80,5,Hybrid: mech + last residual,13,3,23,worse than persistence
+80,5,Hybrid: adaptive + last residual,22,1,45,worse than persistence
+80,5,Direct Ridge (with lag),53,32,77,worse than persistence
+80,5,Direct XGBoost (with lag),32,10,54,worse than persistence
+80,10,Mechanistic,219,138,282,worse than persistence
+80,10,Hybrid: mech + last residual,17,2,32,worse than persistence
+80,10,Hybrid: adaptive + last residual,52,-2,125,no clear difference
+80,10,Direct Ridge (with lag),83,41,128,worse than persistence
+80,10,Direct XGBoost (with lag),44,14,70,worse than persistence
+80,15,Mechanistic,200,126,248,worse than persistence
+80,15,Hybrid: mech + last residual,25,4,49,worse than persistence
+80,15,Hybrid: adaptive + last residual,88,16,182,worse than persistence
+80,15,Direct Ridge (with lag),126,64,184,worse than persistence
+80,15,Direct XGBoost (with lag),39,13,62,worse than persistence
+100,5,Mechanistic,264,177,346,worse than persistence
+100,5,Hybrid: mech + last residual,14,2,25,worse than persistence
+100,5,Hybrid: adaptive + last residual,24,-2,48,no clear difference
+100,5,Direct Ridge (with lag),63,41,87,worse than persistence
+100,5,Direct XGBoost (with lag),38,12,59,worse than persistence
+100,10,Mechanistic,241,172,291,worse than persistence
+100,10,Hybrid: mech + last residual,18,1,34,worse than persistence
+100,10,Hybrid: adaptive + last residual,57,-11,141,no clear difference
+100,10,Direct Ridge (with lag),98,55,141,worse than persistence
+100,10,Direct XGBoost (with lag),51,22,77,worse than persistence
+100,15,Mechanistic,215,155,251,worse than persistence
+100,15,Hybrid: mech + last residual,28,4,55,worse than persistence
+100,15,Hybrid: adaptive + last residual,90,6,200,worse than persistence
+100,15,Direct Ridge (with lag),148,87,199,worse than persistence
+100,15,Direct XGBoost (with lag),45,14,65,worse than persistence

@@ -1,0 +1,6 @@
+model,Leave-one-condition-out,Leave-one-MC-level-out,Leave-one-EBRT-level-out
+Train mean,1.0,1.0,1.2
+"Physics (first-order, k(MC))",1.1,1.0,2.0
+MLR quadratic,1.6,1.4,4.5
+SVR-RBF,4.2,10.6,14.8
+SVR-poly3,2.2,12.9,13.2

@@ -1,0 +1,9 @@
+dropped_block,Train mean,Mechanistic,Ridge,SVR-RBF,Random Forest,XGBoost,best_model,any_ML_below_mean
+A-I,265,330,424,413,363,366,Train mean,False
+A-II,222,271,299,296,254,235,Train mean,False
+A-III,233,262,358,333,301,332,Train mean,False
+A-IV,267,299,409,325,365,358,Train mean,False
+B-I,267,329,425,415,366,368,Train mean,False
+B-II,244,277,343,359,285,257,Train mean,False
+B-III,286,328,413,383,320,324,Train mean,False
+B-IV,287,285,369,397,357,362,Mechanistic,False

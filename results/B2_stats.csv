@@ -1,0 +1,13 @@
+scheme,model,dRMSE_vs_physics,CI95_low,CI95_high,verdict
+Leave-one-condition-out,Train mean,5.72,1.24,10.1,worse than physics
+Leave-one-condition-out,MLR quadratic,-1.04,-2.16,0.14,no clear difference
+Leave-one-condition-out,SVR-RBF,-1.47,-3.44,0.46,no clear difference
+Leave-one-condition-out,SVR-poly3,-2.65,-3.73,-1.49,better than physics
+Leave-one-MC-level-out,Train mean,6.49,1.91,10.99,worse than physics
+Leave-one-MC-level-out,MLR quadratic,-1.25,-2.39,0.0,no clear difference
+Leave-one-MC-level-out,SVR-RBF,4.01,1.6,6.27,worse than physics
+Leave-one-MC-level-out,SVR-poly3,8.29,1.38,13.82,worse than physics
+Leave-one-EBRT-level-out,Train mean,3.79,-2.45,9.95,no clear difference
+Leave-one-EBRT-level-out,MLR quadratic,1.68,-3.54,6.9,no clear difference
+Leave-one-EBRT-level-out,SVR-RBF,2.95,-3.15,9.03,no clear difference
+Leave-one-EBRT-level-out,SVR-poly3,4.13,-0.98,9.27,no clear difference

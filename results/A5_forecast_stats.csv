@@ -1,0 +1,9 @@
+model,dMAE_vs_persistence,CI95_low,CI95_high,verdict
+Mechanistic,198,103,287,worse than persistence
+Direct Ridge (with lag),43,18,66,worse than persistence
+Direct XGBoost (with lag),24,5,44,worse than persistence
+Hybrid: mech + last residual,9,1,18,worse than persistence
+Hybrid: mech + Ridge residual,41,19,60,worse than persistence
+Hybrid: mech + XGBoost residual,50,19,77,worse than persistence
+Adaptive mechanistic,112,31,205,worse than persistence
+Hybrid: adaptive + last residual,17,0,35,no clear difference

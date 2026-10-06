@@ -1,0 +1,7 @@
+model,Leave-one-phase-out,Cross-reactor
+Train mean,1.1,1.0
+Mechanistic,1.3,0.8
+Ridge,1.8,1.8
+SVR-RBF,3.0,1.8
+Random Forest,2.5,2.6
+XGBoost,3.2,3.3

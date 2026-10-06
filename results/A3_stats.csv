@@ -1,0 +1,21 @@
+scheme,model,reference,dMAE,CI95_low,CI95_high,verdict
+Leave-one-phase-out,Mechanistic,Train mean,39,-52,135,no clear difference
+Leave-one-phase-out,Ridge,Train mean,121,-26,268,no clear difference
+Leave-one-phase-out,SVR-RBF,Train mean,106,-37,250,no clear difference
+Leave-one-phase-out,Random Forest,Train mean,67,-65,198,no clear difference
+Leave-one-phase-out,XGBoost,Train mean,66,-98,243,no clear difference
+Leave-one-phase-out,Train mean,Mechanistic,-39,-135,52,no clear difference
+Leave-one-phase-out,Ridge,Mechanistic,83,-17,208,no clear difference
+Leave-one-phase-out,SVR-RBF,Mechanistic,68,-61,208,no clear difference
+Leave-one-phase-out,Random Forest,Mechanistic,29,-112,172,no clear difference
+Leave-one-phase-out,XGBoost,Mechanistic,28,-154,220,no clear difference
+Cross-reactor,Mechanistic,Train mean,-37,-89,18,no clear difference
+Cross-reactor,Ridge,Train mean,162,-78,395,no clear difference
+Cross-reactor,SVR-RBF,Train mean,-8,-88,66,no clear difference
+Cross-reactor,Random Forest,Train mean,108,-12,225,no clear difference
+Cross-reactor,XGBoost,Train mean,108,-38,257,no clear difference
+Cross-reactor,Train mean,Mechanistic,37,-18,89,no clear difference
+Cross-reactor,Ridge,Mechanistic,198,-29,431,no clear difference
+Cross-reactor,SVR-RBF,Mechanistic,28,-16,76,no clear difference
+Cross-reactor,Random Forest,Mechanistic,144,63,228,worse
+Cross-reactor,XGBoost,Mechanistic,144,31,259,worse

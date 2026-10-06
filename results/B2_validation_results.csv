@@ -1,0 +1,21 @@
+scheme,model,RMSE,MAE,R2
+Random 80/20 (as in the paper),Train mean,10.84,8.3,-0.106
+Random 80/20 (as in the paper),"Physics (first-order, k(MC))",4.54,3.7,0.777
+Random 80/20 (as in the paper),MLR quadratic,2.38,1.99,0.937
+Random 80/20 (as in the paper),SVR-RBF,0.81,0.66,0.991
+Random 80/20 (as in the paper),SVR-poly3,1.0,0.78,0.987
+Leave-one-condition-out,Train mean,10.56,8.2,-0.121
+Leave-one-condition-out,"Physics (first-order, k(MC))",4.84,4.1,0.764
+Leave-one-condition-out,MLR quadratic,3.8,3.19,0.855
+Leave-one-condition-out,SVR-RBF,3.38,2.49,0.885
+Leave-one-condition-out,SVR-poly3,2.2,1.8,0.951
+Leave-one-MC-level-out,Train mean,11.09,8.65,-0.235
+Leave-one-MC-level-out,"Physics (first-order, k(MC))",4.6,3.69,0.787
+Leave-one-MC-level-out,MLR quadratic,3.35,2.55,0.887
+Leave-one-MC-level-out,SVR-RBF,8.62,6.69,0.254
+Leave-one-MC-level-out,SVR-poly3,12.89,7.72,-0.669
+Leave-one-EBRT-level-out,Train mean,12.86,10.35,-0.661
+Leave-one-EBRT-level-out,"Physics (first-order, k(MC))",9.07,6.73,0.174
+Leave-one-EBRT-level-out,MLR quadratic,10.75,8.71,-0.16
+Leave-one-EBRT-level-out,SVR-RBF,12.02,9.55,-0.452
+Leave-one-EBRT-level-out,SVR-poly3,13.19,11.59,-0.749

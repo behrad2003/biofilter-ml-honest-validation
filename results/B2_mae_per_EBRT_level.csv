@@ -1,0 +1,4 @@
+,Train mean,"Physics (first-order, k(MC))",MLR quadratic,SVR-RBF,SVR-poly3
+20,15.79,11.25,11.14,14.97,11.72
+40,5.97,3.33,5.46,6.34,6.04
+60,9.31,5.62,9.54,7.34,17.0

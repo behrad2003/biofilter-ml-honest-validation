@@ -1,0 +1,10 @@
+model,MAE_all,MAE_phase_change,MAE_within_phase,RMSE_all,Bias_all,skill_vs_persistence
+Persistence,78,317,53,145,-8,0.0
+Mechanistic,276,401,263,330,26,-2.54
+Direct Ridge (with lag),120,400,91,184,-8,-0.54
+Direct XGBoost (with lag),102,378,73,164,0,-0.31
+Hybrid: mech + last residual,87,382,56,160,-2,-0.12
+Hybrid: mech + Ridge residual,118,427,86,191,-8,-0.51
+Hybrid: mech + XGBoost residual,128,465,93,209,0,-0.64
+Adaptive mechanistic,190,399,168,279,41,-1.44
+Hybrid: adaptive + last residual,95,376,65,176,10,-0.22

@@ -1,0 +1,18 @@
+dataset,model,scheme,inflation_tuned
+A,Ridge,Leave-one-phase-out,1.6
+A,Ridge,Cross-reactor,1.1
+A,SVR-RBF,Leave-one-phase-out,3.6
+A,SVR-RBF,Cross-reactor,3.1
+A,Random Forest,Leave-one-phase-out,3.0
+A,Random Forest,Cross-reactor,2.6
+A,XGBoost,Leave-one-phase-out,4.0
+A,XGBoost,Cross-reactor,3.6
+B,MLR quadratic,Leave-one-condition-out,2.5
+B,MLR quadratic,Leave-one-MC-level-out,8.9
+B,MLR quadratic,Leave-one-EBRT-level-out,11.0
+B,SVR-RBF,Leave-one-condition-out,3.2
+B,SVR-RBF,Leave-one-MC-level-out,12.8
+B,SVR-RBF,Leave-one-EBRT-level-out,15.6
+B,SVR-poly3,Leave-one-condition-out,2.6
+B,SVR-poly3,Leave-one-MC-level-out,10.7
+B,SVR-poly3,Leave-one-EBRT-level-out,11.2

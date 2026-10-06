@@ -1,0 +1,19 @@
+scheme,model,MAE,RMSE,Bias,R2
+Random 5-fold (as in literature),Train mean,233.0,279.0,-0.0,-0.03
+Random 5-fold (as in literature),Mechanistic,225.0,276.0,-64.0,-0.01
+Random 5-fold (as in literature),Ridge,215.0,271.0,7.0,0.02
+Random 5-fold (as in literature),SVR-RBF,123.0,179.0,-15.0,0.57
+Random 5-fold (as in literature),Random Forest,128.0,192.0,17.0,0.51
+Random 5-fold (as in literature),XGBoost,102.0,161.0,4.0,0.64
+Leave-one-phase-out,Train mean,259.0,311.0,0.0,-0.28
+Leave-one-phase-out,Mechanistic,298.0,356.0,-45.0,-0.69
+Leave-one-phase-out,Ridge,380.0,487.0,27.0,-2.16
+Leave-one-phase-out,SVR-RBF,365.0,474.0,75.0,-1.99
+Leave-one-phase-out,Random Forest,326.0,436.0,32.0,-1.53
+Leave-one-phase-out,XGBoost,325.0,480.0,46.0,-2.07
+Cross-reactor,Train mean,228.0,276.0,0.0,-0.02
+Cross-reactor,Mechanistic,191.0,258.0,-65.0,0.12
+Cross-reactor,Ridge,390.0,496.0,-104.0,-2.27
+Cross-reactor,SVR-RBF,220.0,286.0,-120.0,-0.09
+Cross-reactor,Random Forest,336.0,399.0,-23.0,-1.12
+Cross-reactor,XGBoost,336.0,438.0,14.0,-1.55

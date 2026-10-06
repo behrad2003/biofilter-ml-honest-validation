@@ -1,0 +1,18 @@
+model,fit,k0,Ki,a,b,e
+Inhibition (A),"all data, reactor A",0.0525,6755.0,,,
+Inhibition (A),"all data, reactor B",0.0514,4026.0,,,
+Inhibition (A),LOPO without A-I,0.0514,7262.0,,,
+Inhibition (A),LOPO without A-II,0.0525,1768.0,,,
+Inhibition (A),LOPO without A-III,0.0525,21577.0,,,
+Inhibition (A),LOPO without A-IV,0.0525,17293.0,,,
+Inhibition (A),LOPO without B-I,0.0525,3709.0,,,
+Inhibition (A),LOPO without B-II,0.0514,7703.0,,,
+Inhibition (A),LOPO without B-III,0.0514,3298.0,,,
+Inhibition (A),LOPO without B-IV,0.0514,1933.0,,,
+First-order k(MC) (B),all data,,,-2.561,-0.385,0.233
+First-order k(MC) (B),MC level out: without MC=30,,,-2.544,-0.419,0.2
+First-order k(MC) (B),MC level out: without MC=70,,,-2.58,-0.381,0.207
+First-order k(MC) (B),MC level out: without MC=90,,,-2.522,-0.362,0.326
+First-order k(MC) (B),EBRT level out: without EBRT=20,,,-2.839,-0.073,0.298
+First-order k(MC) (B),EBRT level out: without EBRT=40,,,-2.536,-0.431,0.211
+First-order k(MC) (B),EBRT level out: without EBRT=60,,,-2.547,-0.384,0.203
