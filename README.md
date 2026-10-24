@@ -1,6 +1,6 @@
 # Honest validation of machine-learning models for biofilters
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23183080.svg)](https://doi.org/10.5281/zenodo.23183080)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23183080.svg)](https://doi.org/10.5281/zenodo.23614289)
 
 Code and data for the paper
 
