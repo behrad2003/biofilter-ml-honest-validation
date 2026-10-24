@@ -1,0 +1,13 @@
+scheme,model,RMSE,MAE,R2
+Random 80/20 (as in the paper),XGBoost (unconstrained),0.89,0.72,0.99
+Random 80/20 (as in the paper),XGBoost (monotone in EBRT),1.5,1.12,0.967
+Random 80/20 (as in the paper),Physics + GP residual (hybrid),0.79,0.65,0.993
+Leave-one-condition-out,XGBoost (unconstrained),1.71,1.34,0.97
+Leave-one-condition-out,XGBoost (monotone in EBRT),3.0,2.0,0.91
+Leave-one-condition-out,Physics + GP residual (hybrid),1.56,1.28,0.975
+Leave-one-MC-level-out,XGBoost (unconstrained),8.38,5.71,0.295
+Leave-one-MC-level-out,XGBoost (monotone in EBRT),8.16,5.61,0.331
+Leave-one-MC-level-out,Physics + GP residual (hybrid),3.87,2.7,0.85
+Leave-one-EBRT-level-out,XGBoost (unconstrained),13.91,10.25,-0.943
+Leave-one-EBRT-level-out,XGBoost (monotone in EBRT),13.95,10.49,-0.956
+Leave-one-EBRT-level-out,Physics + GP residual (hybrid),9.07,6.73,0.174

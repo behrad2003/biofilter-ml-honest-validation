@@ -1,0 +1,19 @@
+{
+  "title": "Code, data and results for: How reliable are machine-learning models of biofilters? Validation leakage, naive baselines and physics-based alternatives for VOC and H2S biofiltration",
+  "upload_type": "software",
+  "version": "1.2",
+  "description": "<p>Jupyter/Kaggle notebook, cleaned Dataset A and all result tables and figures for the paper submitted to Environmental Modelling &amp; Software. The notebook reproduces every number, table and figure from two public biofiltration datasets. Version 1.2 adds statistical forecast benchmarks, constrained and physics-informed learners, split-conformal prediction intervals and a simulation study (notebook Part E).</p>",
+  "creators": [
+    {"name": "Mashadi Zamani Jalayer, Behrad", "affiliation": "School of Mechatronics Engineering, University of Tehran"},
+    {"name": "Rezaei, Alireza", "affiliation": "School of Mechatronics Engineering, University of Tehran"},
+    {"name": "Borazjani, Arshia", "affiliation": "School of Mechatronics Engineering, University of Tehran"},
+    {"name": "Shamsi Saeedabad, Alireza", "affiliation": "School of Mechatronics Engineering, University of Tehran"}
+  ],
+  "license": "MIT",
+  "keywords": ["biofiltration", "machine learning", "cross-validation", "data leakage", "model evaluation", "mechanistic model", "conformal prediction"],
+  "related_identifiers": [
+    {"identifier": "10.1371/journal.pone.0302487", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.6084/m9.figshare.30266404", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "https://github.com/behrad2003/biofilter-ml-honest-validation/tree/v1.2", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

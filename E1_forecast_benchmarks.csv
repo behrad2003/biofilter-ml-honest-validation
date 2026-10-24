@@ -1,0 +1,109 @@
+start_day,horizon_days,model,MAE
+40,5,Persistence,78
+40,5,Mechanistic,276
+40,5,Hybrid: mech + last residual,87
+40,5,Hybrid: adaptive + last residual,95
+40,5,Direct Ridge (with lag),120
+40,5,Direct XGBoost (with lag),102
+40,5,"AR(1), direct",93
+40,5,Exponential smoothing,76
+40,5,Drift,84
+50,5,Persistence,81
+50,5,Mechanistic,288
+50,5,Hybrid: mech + last residual,92
+50,5,Hybrid: adaptive + last residual,100
+50,5,Direct Ridge (with lag),127
+50,5,Direct XGBoost (with lag),107
+50,5,"AR(1), direct",97
+50,5,Exponential smoothing,80
+50,5,Drift,86
+50,10,Persistence,118
+50,10,Mechanistic,306
+50,10,Hybrid: mech + last residual,132
+50,10,Hybrid: adaptive + last residual,164
+50,10,Direct Ridge (with lag),185
+50,10,Direct XGBoost (with lag),178
+50,10,"AR(1), direct",159
+50,10,Exponential smoothing,117
+50,10,Drift,134
+60,5,Persistence,85
+60,5,Mechanistic,301
+60,5,Hybrid: mech + last residual,97
+60,5,Hybrid: adaptive + last residual,106
+60,5,Direct Ridge (with lag),135
+60,5,Direct XGBoost (with lag),113
+60,5,"AR(1), direct",103
+60,5,Exponential smoothing,84
+60,5,Drift,90
+60,10,Persistence,123
+60,10,Mechanistic,319
+60,10,Hybrid: mech + last residual,138
+60,10,Hybrid: adaptive + last residual,173
+60,10,Direct Ridge (with lag),196
+60,10,Direct XGBoost (with lag),186
+60,10,"AR(1), direct",169
+60,10,Exponential smoothing,121
+60,10,Drift,140
+60,15,Persistence,172
+60,15,Mechanistic,345
+60,15,Hybrid: mech + last residual,193
+60,15,Hybrid: adaptive + last residual,247
+60,15,Direct Ridge (with lag),280
+60,15,Direct XGBoost (with lag),206
+60,15,"AR(1), direct",266
+60,15,Exponential smoothing,168
+60,15,Drift,198
+80,5,Persistence,73
+80,5,Mechanistic,313
+80,5,Hybrid: mech + last residual,86
+80,5,Hybrid: adaptive + last residual,95
+80,5,Direct Ridge (with lag),127
+80,5,Direct XGBoost (with lag),105
+80,5,"AR(1), direct",81
+80,5,Exponential smoothing,72
+80,5,Drift,78
+80,10,Persistence,109
+80,10,Mechanistic,328
+80,10,Hybrid: mech + last residual,126
+80,10,Hybrid: adaptive + last residual,162
+80,10,Direct Ridge (with lag),192
+80,10,Direct XGBoost (with lag),153
+80,10,"AR(1), direct",143
+80,10,Exponential smoothing,107
+80,10,Drift,124
+80,15,Persistence,146
+80,15,Mechanistic,346
+80,15,Hybrid: mech + last residual,171
+80,15,Hybrid: adaptive + last residual,234
+80,15,Direct Ridge (with lag),272
+80,15,Direct XGBoost (with lag),185
+80,15,"AR(1), direct",254
+80,15,Exponential smoothing,142
+80,15,Drift,177
+100,5,Persistence,77
+100,5,Mechanistic,341
+100,5,Hybrid: mech + last residual,91
+100,5,Hybrid: adaptive + last residual,100
+100,5,Direct Ridge (with lag),139
+100,5,Direct XGBoost (with lag),114
+100,5,"AR(1), direct",84
+100,5,Exponential smoothing,76
+100,5,Drift,80
+100,10,Persistence,118
+100,10,Mechanistic,359
+100,10,Hybrid: mech + last residual,136
+100,10,Hybrid: adaptive + last residual,175
+100,10,Direct Ridge (with lag),216
+100,10,Direct XGBoost (with lag),170
+100,10,"AR(1), direct",140
+100,10,Exponential smoothing,117
+100,10,Drift,132
+100,15,Persistence,162
+100,15,Mechanistic,377
+100,15,Hybrid: mech + last residual,190
+100,15,Hybrid: adaptive + last residual,252
+100,15,Direct Ridge (with lag),310
+100,15,Direct XGBoost (with lag),207
+100,15,"AR(1), direct",208
+100,15,Exponential smoothing,158
+100,15,Drift,185

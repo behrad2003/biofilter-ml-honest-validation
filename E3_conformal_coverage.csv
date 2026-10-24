@@ -1,0 +1,43 @@
+scheme,model,calibration,coverage,mean_width,dataset
+Random 5-fold,Mechanistic,random,0.93,975.87,A
+Random 5-fold,Mechanistic,grouped,0.93,1127.44,A
+Random 5-fold,SVR-RBF,random,0.96,846.36,A
+Random 5-fold,SVR-RBF,grouped,1.0,1481.89,A
+Random 5-fold,XGBoost,random,0.99,663.4,A
+Random 5-fold,XGBoost,grouped,1.0,1844.18,A
+Leave-one-phase-out,Mechanistic,random,0.67,901.54,A
+Leave-one-phase-out,Mechanistic,grouped,0.81,1138.56,A
+Leave-one-phase-out,SVR-RBF,random,0.5,493.42,A
+Leave-one-phase-out,SVR-RBF,grouped,0.79,1405.78,A
+Leave-one-phase-out,XGBoost,random,0.53,440.96,A
+Leave-one-phase-out,XGBoost,grouped,0.82,1639.61,A
+Cross-reactor,Mechanistic,random,0.92,959.8,A
+Cross-reactor,Mechanistic,grouped,1.0,1169.9,A
+Cross-reactor,SVR-RBF,random,0.58,545.81,A
+Cross-reactor,SVR-RBF,grouped,0.97,1378.89,A
+Cross-reactor,XGBoost,random,0.53,558.28,A
+Cross-reactor,XGBoost,grouped,0.89,1494.17,A
+Random 80/20,"Physics (first-order, k(MC))",random,0.88,15.26,B
+Random 80/20,"Physics (first-order, k(MC))",grouped,0.92,16.86,B
+Random 80/20,SVR-RBF,random,0.95,4.85,B
+Random 80/20,SVR-RBF,grouped,1.0,20.13,B
+Random 80/20,SVR-poly3,random,0.9,3.45,B
+Random 80/20,SVR-poly3,grouped,1.0,12.02,B
+Leave-one-condition-out,"Physics (first-order, k(MC))",random,0.87,14.48,B
+Leave-one-condition-out,"Physics (first-order, k(MC))",grouped,0.89,16.73,B
+Leave-one-condition-out,SVR-RBF,random,0.37,2.56,B
+Leave-one-condition-out,SVR-RBF,grouped,1.0,20.87,B
+Leave-one-condition-out,SVR-poly3,random,0.44,2.85,B
+Leave-one-condition-out,SVR-poly3,grouped,0.89,10.44,B
+Leave-one-MC-level-out,"Physics (first-order, k(MC))",random,0.85,17.46,B
+Leave-one-MC-level-out,"Physics (first-order, k(MC))",grouped,1.0,150.52,B
+Leave-one-MC-level-out,SVR-RBF,random,0.17,3.06,B
+Leave-one-MC-level-out,SVR-RBF,grouped,1.0,45.49,B
+Leave-one-MC-level-out,SVR-poly3,random,0.37,4.03,B
+Leave-one-MC-level-out,SVR-poly3,grouped,0.81,38.76,B
+Leave-one-EBRT-level-out,"Physics (first-order, k(MC))",random,0.7,16.26,B
+Leave-one-EBRT-level-out,"Physics (first-order, k(MC))",grouped,0.87,41.82,B
+Leave-one-EBRT-level-out,SVR-RBF,random,0.11,4.3,B
+Leave-one-EBRT-level-out,SVR-RBF,grouped,0.78,42.2,B
+Leave-one-EBRT-level-out,SVR-poly3,random,0.11,4.02,B
+Leave-one-EBRT-level-out,SVR-poly3,grouped,0.78,40.76,B

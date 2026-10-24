@@ -1,0 +1,7 @@
+scheme,model,MC=30,MC=70,MC=90,EBRT=20,EBRT=40,EBRT=60
+Leave-one-MC-level-out,XGBoost (unconstrained),5.83,5.71,5.6,,,
+Leave-one-MC-level-out,XGBoost (monotone in EBRT),6.07,5.14,5.61,,,
+Leave-one-MC-level-out,Physics + GP residual (hybrid),5.32,1.28,1.5,,,
+Leave-one-EBRT-level-out,XGBoost (unconstrained),,,,14.17,14.16,2.42
+Leave-one-EBRT-level-out,XGBoost (monotone in EBRT),,,,13.94,14.78,2.75
+Leave-one-EBRT-level-out,Physics + GP residual (hybrid),,,,11.25,3.33,5.62

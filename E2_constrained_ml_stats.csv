@@ -1,0 +1,10 @@
+scheme,model,dRMSE_vs_physics,lo,hi,verdict
+Leave-one-condition-out,XGBoost (unconstrained),-3.13,-4.5,-1.82,better than physics
+Leave-one-condition-out,XGBoost (monotone in EBRT),-1.84,-3.73,0.07,no clear difference
+Leave-one-condition-out,Physics + GP residual (hybrid),-3.28,-4.48,-1.99,better than physics
+Leave-one-MC-level-out,XGBoost (unconstrained),3.78,0.1,7.16,worse than physics
+Leave-one-MC-level-out,XGBoost (monotone in EBRT),3.56,-0.01,6.9,no clear difference
+Leave-one-MC-level-out,Physics + GP residual (hybrid),-0.73,-1.49,-0.31,better than physics
+Leave-one-EBRT-level-out,XGBoost (unconstrained),4.84,-1.55,11.05,no clear difference
+Leave-one-EBRT-level-out,XGBoost (monotone in EBRT),4.89,-1.49,11.09,no clear difference
+Leave-one-EBRT-level-out,Physics + GP residual (hybrid),-0.0,-0.0,0.0,no clear difference

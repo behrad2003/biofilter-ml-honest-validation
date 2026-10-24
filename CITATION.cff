@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below, together with the paper and the two original datasets."
+title: "Code, data and results for: How reliable are machine-learning models of biofilters? Validation leakage, naive baselines and physics-based alternatives for VOC and H2S biofiltration"
+type: software
+version: "1.2"
+date-released: 2026-10-24
+license: MIT
+doi: 10.5281/zenodo.23183080
+repository-code: "https://github.com/behrad2003/biofilter-ml-honest-validation"
+authors:
+  - family-names: "Mashadi Zamani Jalayer"
+    given-names: "Behrad"
+    affiliation: "School of Mechatronics Engineering, University of Tehran"
+  - family-names: "Rezaei"
+    given-names: "Alireza"
+    affiliation: "School of Mechatronics Engineering, University of Tehran"
+  - family-names: "Borazjani"
+    given-names: "Arshia"
+    affiliation: "School of Mechatronics Engineering, University of Tehran"
+  - family-names: "Shamsi Saeedabad"
+    given-names: "Alireza"
+    affiliation: "School of Mechatronics Engineering, University of Tehran"
