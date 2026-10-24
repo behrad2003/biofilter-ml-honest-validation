@@ -97,7 +97,7 @@ Figure files → figure numbers in the paper: `Fig2_A_mechanistic_trajectories.p
 
 Please cite the paper (details to be added on publication) and this archive:
 
-- Mashadi Zamani Jalayer, B., Rezaei, A., Borazjani, A., Shamsi Saeedabad, A. (2026). Code, data and results for: How reliable are machine-learning models of biofilters? (version 1.2). Zenodo. https://doi.org/10.5281/zenodo.23183080
+- Mashadi Zamani Jalayer, B., Rezaei, A., Borazjani, A., Shamsi Saeedabad, A. (2026). Code, data and results for: How reliable are machine-learning models of biofilters? (version 1.2.1). Zenodo. https://doi.org/10.5281/zenodo.23183080
 
 and the two original data sources:
 
